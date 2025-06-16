@@ -18,6 +18,7 @@ A React + TypeScript application that connects to the Wookiee Movie Database API
 
 ### Architecture & Folder Structure
 
+```
 src/
 ├── assets/                      # static assets (fallback image, etc)
 ├── components/
@@ -44,6 +45,7 @@ src/
 │   └── search-bar/
 │       └── SearchBar.tsx       # Debounced search tied to query params
 └── App.tsx                     # RouterProvider + global layout
+```
 
 ### Setup Instructions
 Clone this repo
